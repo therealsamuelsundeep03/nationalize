@@ -1,0 +1,73 @@
+body{
+    font-size: 19px;
+}
+h2{
+    background-color: #212121;
+    color: #f1f1f1;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-md-5{
+    padding-left: 85px;
+}
+.col-md-2{
+    padding-left: 30px;
+}
+.btn-primary{
+    margin-left: 20px;
+}
+.form-control{
+    width: 400px;
+}
+.nameError{
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+p{
+    margin: 10px 30px;
+}
+.form-group{
+    display: flex;
+    margin-left: 40%;
+    margin-top: 7%;
+    width: 230px;
+}
+.container{
+    margin-top:20px;
+    border:1px solid white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 650px;
+    height: 300px;
+    display: none;
+}
+.person{
+    font-size: 25px;
+    text-transform:uppercase;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 20px;
+}
+.row{
+    margin-top: 30px;
+}
+.col-md-4{
+    background-color : #9cbab4;
+    position: relative;
+    margin-left: 10px;
+    margin-right:60px;
+    width: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 15px;
+}
+.progress-fill{
+    background-color:#009579;
+    position: absolute;
+    left: 0px;
+    height: 15px;
+    transition: all 0.6s;
+}
